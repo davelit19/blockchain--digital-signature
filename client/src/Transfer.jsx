@@ -14,7 +14,7 @@ function Transfer({ address, setBalance, privateKey }) {
     
   async function transfer(evt) {
     evt.preventDefault();
-     //
+     //Generating the message hash
      const msgHash = keccak256(utf8ToBytes(sendAmount));
      //
        const signature = secp.secp256k1.sign(msgHash, privateKey);
