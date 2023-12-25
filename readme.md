@@ -23,7 +23,7 @@ The client folder contains a [react app](https://reactjs.org/) using [vite](http
 The server folder contains a node.js server using [express](https://expressjs.com/). To run the server, follow these steps:
 
 1. Open a terminal within the `/server` folder 
-2. Run `npm install` to install all the depedencies 
+2. Run `npm install` to install all the depedencies a
 3. Run `node index` to start the server 
 
 The application should connect to the default server port (3042) automatically! 
